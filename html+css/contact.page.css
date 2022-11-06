@@ -1,0 +1,85 @@
+body {
+    background-color: red;
+    margin: 0;
+    font-family: Century Gothic;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 5em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+nav img {
+   width: 5em;
+   height: 5em;
+   flex: 1;
+}
+
+.nav-image-div {
+    justify-content: flex-start;
+    float: left;
+}
+
+.nav-spacer-div {
+    flex: 2;
+}
+
+.nav-links-div{
+    justify-content: flex-end;
+    float: right;
+    flex: 1;
+    text-align: center;
+    line-height: 5em;
+}
+
+.nav-links-div div {
+    display: flex;
+    justify-content: end;
+}
+
+.nav-links-div div a {
+    text-decoration: none;
+    color: black;
+    padding-right: 4em;
+    padding-left: 4em;
+    text-align: center;
+}
+
+.nav-links-div div a:hover{
+    color: white;
+    background-color: red;
+}
+
+.center-div {
+    margin-top: 10em;
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    padding-bottom: 2em;
+    margin-bottom: 10em;
+}
+
+.info-container {
+    text-align: left;
+    width: 20em;
+    padding-bottom: 10em;
+
+}
+
+.image-container {
+    margin-top: 3em;
+    margin-right: 3em;
+
+}
+.image-container img {
+    width: 60%;
+    height: 60%;
+}
